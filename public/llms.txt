@@ -7,49 +7,49 @@
 ## Pages
 
 ### בית
-https://-b1d0a68e.zappy5.app
+https://example.com
 עורך-דין ומדען מידע עם 25 שנות מומחיות במוסדות הציבור הגדולים בישראל. גילוי תקדימים נסתרים ופרצות רגולטוריות שיחסכו לכם זמן, כסף וביורוקרטיה מיותרת. קליניקה סלקטיבית ללקוחות נבחרים בלבד.
 
 ### סיווגי רכש ופטור ממכרז
-https://-b1d0a68e.zappy5.app/procurement-exemptions
+https://example.com/procurement-exemptions
 בדיקת הצעת מכרז לפני הגשה, סיווגי רכש מורכבים ופטור ממכרז לעסקים קטנים. חילוץ ממבוכי הרגולציה באמצעות מתודולוגיית מידענות משפטית שפיצחה את הכללים בחברת החשמל, לאומי ורכבת ישראל.
 
 ### תביעות קטנות וענייני צרכנות
-https://-b1d0a68e.zappy5.app/small-claims-consumer
+https://example.com/small-claims-consumer
 תביעות קטנות בתבונה: פיצוי על ביטול טיסה, עישון ציבורי אסור, נזקים עירוניים ועוד. ייצוג ממוקד תוצאות בראשון לציון ובכל הארץ, עם ארגז כלים של מדען מידע שמזהה מה אחרים מפספסים.
 
 ### חוות דעת משפטיות
-https://-b1d0a68e.zappy5.app/legal-opinions
+https://example.com/legal-opinions
 חוות דעת משפטיות הנשענות על כריית מידע מתקדמת לחשיפת תקדימים חבויים. לא עוד חוות דעת גנרית — אלא מסמך אסטרטגי המבוסס על 25 שנות התמחות בצמתים הקריטיים של המשק הישראלי.
 
 ### הרצאות וסדנאות מידענות משפטית
-https://-b1d0a68e.zappy5.app/lectures-legal-informatics
+https://example.com/lectures-legal-informatics
 הרצאות וסדנאות מידענות משפטית לתיכונים ולקהלים סקרנים. ד&quot;ר סולומון חושף איך מנתחים רגולציה כמו קוד מקור, מוצאים פרצות נסתרות ומבינים את השפה האמיתית של הביורוקרטיה הישראלית.
 
 ### יוזמת דיפלומטיה-למחצה ישראל-ניואה
-https://-b1d0a68e.zappy5.app/israel-niue-initiative
+https://example.com/israel-niue-initiative
 יוזמת דיפלומטיה-למחצה פורצת דרך בין ישראל לניואה. ד&quot;ר סולומון רותם מומחיות משפטית ודיפלומטית ליצירת ערוצי השפעה לא-מסורתיים בזירה הבינלאומית, הרחק מהמסלולים השחוקים.
 
 ### צור קשר
-https://-b1d0a68e.zappy5.app/contact
+https://example.com/contact
 הקליניקה מקבלת לקוחות נבחרים בלבד. השאירו פנייה קצרה וממוקדת ונחזור אליכם אם נוכל להועיל באמת. אין הבטחות ריקות — רק ניתוח חד של הבעיה והדרך לעקוף את הביורוקרטיה.
 
 ### תודה על פנייתך
-https://-b1d0a68e.zappy5.app/thank-you
+https://example.com/thank-you
 עורך-דין ודוקטור (מדעי המידע) יוסף סולומון - תודה על פנייתך
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-b1d0a68e.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-b1d0a68e.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-b1d0a68e.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -59,8 +59,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-b1d0a68e.zappy5.app
-- Endpoint: https://-b1d0a68e.zappy5.app/api/email/contact-form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -95,6 +95,6 @@ Legal Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-b1d0a68e.zappy5.app/sitemap.xml
-- Robots: https://-b1d0a68e.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-b1d0a68e.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
