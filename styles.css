@@ -68,16 +68,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
-  --primary: #1F2A37;
+--primary: #1F2A37;
   --secondary: #0F766E;
   --accent: #B7791F;
-  --bg-light: #FAF9F6;
+  --bg-light: #ffffff;
   --bg-dark: #1F2A37;
-  --text-dark: #1F2A37;
+  --text-dark: #4a4a4a;
   --text-light: #FAF9F6;
-  --text-muted: #6B7280;
-  --border-light: #E7E3DA;
-  --border-dark: #334155;
+  --text-muted: #707070;
+  --border-light: #8b8883;
+  --border-dark: #667488;
   --nav-bg: #FAF9F6;
   --nav-text: #1F2A37;
   --nav-text-hover: #0F766E;
@@ -98,6 +98,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
+  --primary-color: #1F2A37;
+  --secondary-color: #0F766E;
+  --accent-color: #B7791F;
+  --background-color: #ffffff;
+  --surface-color: #f8f9fa;
+  --text-color: #4a4a4a;
+  --text-secondary-color: #707070;
 }
 
 *, *::before, *::after {
@@ -278,10 +285,10 @@ html:not([dir]) .whatsapp-float {
   --primary: #1F2A37;
   --secondary: #0F766E;
   --accent: #B7791F;
-  --bg-light: #FAF9F6;
-  --text-dark: #1F2A37;
+  --bg-light: #ffffff;
+  --text-dark: #4a4a4a;
   --text-light: #FAF9F6;
-  --border-light: #E7E3DA;
+  --border-light: #8b8883;
 }
 
 *,
@@ -504,10 +511,10 @@ html:not([dir]) .whatsapp-float {
   --primary: #1F2A37;
   --secondary: #0F766E;
   --accent: #B7791F;
-  --bg-light: #FAF9F6;
-  --text-dark: #1F2A37;
+  --bg-light: #ffffff;
+  --text-dark: #4a4a4a;
   --text-light: #FAF9F6;
-  --border-light: #E7E3DA;
+  --border-light: #8b8883;
 }
 
 *,
@@ -1413,7 +1420,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
     order: 0 !important;
     padding: 16px 28px;
     border-radius: 999px;
-    background: var(--primary, var(--accent, #e85d2a)) !important;
+    background: var(--primary, var(--accent, #B7791F)) !important;
     color: #ffffff !important;
     font-size: 1.1rem;
     font-weight: 700;
@@ -1834,7 +1841,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
   --footer-bg: var(--bg-dark, #1F2A37);
   --footer-text: var(--text-light, #FAF9F6);
   --footer-muted: rgba(250, 249, 246, 0.65);
-  --footer-border: var(--border-dark, #334155);
+  --footer-border: var(--border-dark, #1F2A37);
   --footer-accent: var(--secondary, #0F766E);
   --footer-radius: 6px;
   --footer-transition: all 0.3s ease;
@@ -2117,7 +2124,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #b48b59); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #B7791F); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2491,7 +2498,7 @@ main { flex: 1 0 auto; }
 
 /* Card Styles */
 .index-capabilities-section .capability-card {
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     border: 1px solid var(--border-light);
@@ -2690,7 +2697,7 @@ main { flex: 1 0 auto; }
 .index-credentials-section {
   position: relative;
   overflow: visible;
-  background: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+  background: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
   color: var(--text-light);
   padding: 100px 24px 140px;
   direction: rtl;
@@ -2913,7 +2920,7 @@ main { flex: 1 0 auto; }
 
 /* Tiles Base */
 .index-case-focus-section__tile {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   border: 1px solid var(--border-light);
@@ -3139,7 +3146,7 @@ main { flex: 1 0 auto; }
 
 /* Form Wrapper */
 .index-contact-section .contact-form-wrapper {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
@@ -3171,7 +3178,7 @@ main { flex: 1 0 auto; }
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   color: var(--text-dark);
-  background: #fff;
+  background: #ffffff;
   border: 2px solid var(--border-light);
   border-radius: var(--radius-input);
   padding: 14px 16px;
@@ -3293,7 +3300,7 @@ main { flex: 1 0 auto; }
 }
 
 .index-contact-section .guidance-card {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
@@ -3791,7 +3798,7 @@ main { flex: 1 0 auto; }
 .procurement-exemptions-methodology-section {
   position: relative;
   overflow: visible;
-  background: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+  background: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
   color: var(--text-light);
   padding: 100px 16px 80px;
   direction: rtl;
@@ -4013,7 +4020,7 @@ main { flex: 1 0 auto; }
 }
 
 .procurement-exemptions-audience-fit-section__column {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(28,40,51,0.08);
   padding: 32px;
@@ -4198,7 +4205,7 @@ main { flex: 1 0 auto; }
 }
 
 .procurement-exemptions-cta-section__button:hover {
-  background: #A56918;
+  background: #B7791F;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
@@ -4654,7 +4661,7 @@ main { flex: 1 0 auto; }
 /* evidence-path */
 .small-claims-consumer-evidence-path-section {
     position: relative;
-    background: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+    background: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
     color: var(--text-light);
     padding: 100px 0 80px 0;
     overflow: visible;
@@ -4961,7 +4968,7 @@ main { flex: 1 0 auto; }
   display: flex;
   flex-direction: column;
   gap: 0;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
@@ -5147,7 +5154,7 @@ main { flex: 1 0 auto; }
 }
 
 .small-claims-consumer-cta-section .cta-primary-button:hover {
-  background: #0D6B63;
+  background: #0F766E;
   box-shadow: var(--shadow-btn-hover, 0 8px 30px rgba(0,0,0,0.09));
   transform: translateY(-1px);
 }
@@ -5461,7 +5468,7 @@ main { flex: 1 0 auto; }
 
 /* ── Individual Card ──────────────────────────────────────────────── */
 .legal-opinions-opinion-scope-section .scope-card {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card, 8px);
   box-shadow: var(--shadow-card, 0 2px 12px rgba(0,0,0,0.06));
@@ -5624,7 +5631,7 @@ main { flex: 1 0 auto; }
 .legal-opinions-credibility-section {
   position: relative;
   background-color: var(--bg-dark);
-  background-image: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+  background-image: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
   color: var(--text-light);
   padding: var(--spacing-section, 100px) 0 calc(var(--spacing-section, 100px) + 80px) 0;
   overflow: visible;
@@ -5735,7 +5742,7 @@ main { flex: 1 0 auto; }
 /* ── Strength Card ── */
 .legal-opinions-credibility-section__strength-card {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-dark, #334155);
+  border: 1px solid var(--border-dark, #1F2A37);
   border-radius: var(--radius-card, 8px);
   padding: var(--spacing-card-padding, 32px);
   text-align: start;
@@ -6536,7 +6543,7 @@ main { flex: 1 0 auto; }
   overflow: visible;
   padding: 100px 16px 80px;
   background-color: #1C2833;
-  background-image: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+  background-image: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
   color: var(--text-light);
   direction: rtl;
 }
@@ -6994,7 +7001,7 @@ main { flex: 1 0 auto; }
 }
 
 .lectures-legal-informatics-cta-section .cta-button:hover {
-  background-color: #A0681A;
+  background-color: #B7791F;
   box-shadow: var(--shadow-btn-hover);
   transform: translateY(-1px);
 }
@@ -7281,7 +7288,7 @@ main { flex: 1 0 auto; }
 .israel-niue-initiative-initiative-focus-section__accent-bar {
   width: 60px;
   height: 3px;
-  background-color: #C9A84C;
+  background-color: #B7791F;
   margin-bottom: 24px;
   margin-inline-start: 0;
 }
@@ -7310,12 +7317,12 @@ main { flex: 1 0 auto; }
 /* ── Card Styling ───────────────────────────── */
 
 .israel-niue-initiative-initiative-focus-section__card {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 6px;
   box-shadow: 0 4px 20px rgba(28, 40, 51, 0.08);
   padding: 2rem;
   border: 1px solid #E5E8EA;
-  border-top: 3px solid #C9A84C;
+  border-top: 3px solid #B7791F;
   transition: all 0.3s ease;
   position: relative;
   display: flex;
@@ -7334,7 +7341,7 @@ main { flex: 1 0 auto; }
   font-family: 'Rubik', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #C9A84C;
+  color: #946c0f;
   opacity: 0.25;
   line-height: 1;
   position: absolute;
@@ -7370,7 +7377,7 @@ main { flex: 1 0 auto; }
 /* ── Closing Statement ──────────────────────── */
 
 .israel-niue-initiative-initiative-focus-section__closing {
-  border-inline-start: 3px solid #C9A84C;
+  border-inline-start: 3px solid #B7791F;
   padding-inline-start: 24px;
   margin-top: 48px;
 }
@@ -7468,7 +7475,7 @@ main { flex: 1 0 auto; }
 .israel-niue-initiative-framing-section {
   position: relative;
   overflow: visible;
-  background: linear-gradient(135deg, #1A3A5C 0%, #1C2833 100%);
+  background: linear-gradient(135deg, #2B3A4B 0%, #1C2833 100%);
   background-color: var(--bg-dark);
   color: var(--text-light);
   padding: 100px 16px 80px;
@@ -7970,7 +7977,7 @@ main { flex: 1 0 auto; }
 }
 
 .israel-niue-initiative-inquiry-section__cta:hover {
-  background: #0d6b63;
+  background: #0F766E;
   box-shadow: var(--shadow-btn-hover, 0 4px 15px rgba(0,0,0,0.072));
   transform: translateY(-1px);
 }
@@ -8155,7 +8162,7 @@ main { flex: 1 0 auto; }
 }
 
 .contact-contact-section__form-card {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 6px;
   box-shadow: 0 4px 20px rgba(28,40,51,0.08);
   padding: 2.5rem;
@@ -8303,7 +8310,7 @@ main { flex: 1 0 auto; }
 }
 
 .contact-contact-section__info-card {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 6px;
   box-shadow: 0 4px 20px rgba(28,40,51,0.08);
   padding: 2.5rem;
@@ -8817,9 +8824,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #1f2a37;
+  --cc-btn-primary-bg: #1F2A37;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #1f2a37;
+  --cc-btn-primary-border: #1F2A37;
   --cc-btn-primary-hover-bg: #06111e;
   --cc-btn-primary-hover-border: #06111e;
   --cc-btn-primary-hover-color: #ffffff;
@@ -8835,7 +8842,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #1f2a37;
+  --cc-toggle-on-bg: #1F2A37;
 }
 
 #cc-main,
@@ -8948,7 +8955,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #1f2a37 !important;
+  color: #1F2A37 !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -9340,6 +9347,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+
+
+
+/* === BUTTON TEXT OVERRIDES START === */
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
