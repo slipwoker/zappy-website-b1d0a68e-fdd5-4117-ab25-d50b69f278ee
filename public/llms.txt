@@ -1,0 +1,100 @@
+# עורך-דין ודוקטור (מדעי המידע) יוסף סולומון — Generative Engine Optimization Map
+
+> Dr. Yosef Solomon is a dual-credentialed attorney and Doctor of Information Science with 25 years of expertise in public procurement, tender exemptions, and regulatory navigation across Israel's most prominent institutions (Israel Electric Corporation, Bank Leumi, Israel Railways). He positions himself not as a conventional litigator but as a 'Legal Information Scientist' — leveraging advanced information retrieval methods to uncover hidden precedents and regulatory blind spots that others miss. His practice is deliberately selective, serving only chosen clients across niche verticals: small business procurement consulting, innovative small claims litigation (aviation cancellations, public smoking violations, urban damages), expert legal opinions, legal informatics lectures for high schools, and a unique Israel-Niue para-diplomacy initiative. The brand tone is sharp, results-oriented, bureaucracy-navigating, and intellectually authoritative — free from marketing clichés and outcome guarantees.
+
+---
+
+## Pages
+
+### בית
+https://-b1d0a68e.zappy5.app
+עורך-דין ומדען מידע עם 25 שנות מומחיות במוסדות הציבור הגדולים בישראל. גילוי תקדימים נסתרים ופרצות רגולטוריות שיחסכו לכם זמן, כסף וביורוקרטיה מיותרת. קליניקה סלקטיבית ללקוחות נבחרים בלבד.
+
+### סיווגי רכש ופטור ממכרז
+https://-b1d0a68e.zappy5.app/procurement-exemptions
+בדיקת הצעת מכרז לפני הגשה, סיווגי רכש מורכבים ופטור ממכרז לעסקים קטנים. חילוץ ממבוכי הרגולציה באמצעות מתודולוגיית מידענות משפטית שפיצחה את הכללים בחברת החשמל, לאומי ורכבת ישראל.
+
+### תביעות קטנות וענייני צרכנות
+https://-b1d0a68e.zappy5.app/small-claims-consumer
+תביעות קטנות בתבונה: פיצוי על ביטול טיסה, עישון ציבורי אסור, נזקים עירוניים ועוד. ייצוג ממוקד תוצאות בראשון לציון ובכל הארץ, עם ארגז כלים של מדען מידע שמזהה מה אחרים מפספסים.
+
+### חוות דעת משפטיות
+https://-b1d0a68e.zappy5.app/legal-opinions
+חוות דעת משפטיות הנשענות על כריית מידע מתקדמת לחשיפת תקדימים חבויים. לא עוד חוות דעת גנרית — אלא מסמך אסטרטגי המבוסס על 25 שנות התמחות בצמתים הקריטיים של המשק הישראלי.
+
+### הרצאות וסדנאות מידענות משפטית
+https://-b1d0a68e.zappy5.app/lectures-legal-informatics
+הרצאות וסדנאות מידענות משפטית לתיכונים ולקהלים סקרנים. ד&quot;ר סולומון חושף איך מנתחים רגולציה כמו קוד מקור, מוצאים פרצות נסתרות ומבינים את השפה האמיתית של הביורוקרטיה הישראלית.
+
+### יוזמת דיפלומטיה-למחצה ישראל-ניואה
+https://-b1d0a68e.zappy5.app/israel-niue-initiative
+יוזמת דיפלומטיה-למחצה פורצת דרך בין ישראל לניואה. ד&quot;ר סולומון רותם מומחיות משפטית ודיפלומטית ליצירת ערוצי השפעה לא-מסורתיים בזירה הבינלאומית, הרחק מהמסלולים השחוקים.
+
+### צור קשר
+https://-b1d0a68e.zappy5.app/contact
+הקליניקה מקבלת לקוחות נבחרים בלבד. השאירו פנייה קצרה וממוקדת ונחזור אליכם אם נוכל להועיל באמת. אין הבטחות ריקות — רק ניתוח חד של הבעיה והדרך לעקוף את הביורוקרטיה.
+
+### תודה על פנייתך
+https://-b1d0a68e.zappy5.app/thank-you
+עורך-דין ודוקטור (מדעי המידע) יוסף סולומון - תודה על פנייתך
+
+## Legal & Policy
+
+### Privacy Policy
+https://-b1d0a68e.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-b1d0a68e.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-b1d0a68e.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-b1d0a68e.zappy5.app
+- Endpoint: https://-b1d0a68e.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עורך-דין ודוקטור (מדעי המידע) יוסף סולומון
+Dr. Yosef Solomon is a dual-credentialed attorney and Doctor of Information Science with 25 years of expertise in public procurement, tender exemptions, and regulatory navigation across Israel's most prominent institutions (Israel Electric Corporation, Bank Leumi, Israel Railways). He positions himself not as a conventional litigator but as a 'Legal Information Scientist' — leveraging advanced information retrieval methods to uncover hidden precedents and regulatory blind spots that others miss. His practice is deliberately selective, serving only chosen clients across niche verticals: small business procurement consulting, innovative small claims litigation (aviation cancellations, public smoking violations, urban damages), expert legal opinions, legal informatics lectures for high schools, and a unique Israel-Niue para-diplomacy initiative. The brand tone is sharp, results-oriented, bureaucracy-navigating, and intellectually authoritative — free from marketing clichés and outcome guarantees.
+
+## Target Audience
+- עסקים קטנים בתחום מכרזים וסיווגי פטור, צרכנים בתביעות קטנות (תעופה, עישון, נזקים עירוניים), לקוחות הזקוקים לחוות דעת משפטיות, תיכונים המעוניינים בהרצאות אינפורמטיקה משפטית, ויוזמות פארא-דיפלומטיה ישראל-ניואה – לקוחות נבחרים בלבד
+- עסקים קטנים במכרזים
+- לקוחות חוות דעת משפטיות
+- תיכונים להרצאות משפטיות
+- יוזמות פארא-דיפלומטיה
+- צרכנים בתביעות קטנות
+- עוסקים פטורים, עוסקים זעירים, עסקים זעירים, עסקים קטנים, עסקים בינוניים שרוצים להתמודד במכרזים פומביים
+- אנשים שנתקעים בבירוקרטיה הישראלית, אנשים פרטיים או עסקים זעירים שמסתבכים ומתקשים מול סבך הבירוקרטיה
+- עוסקים פטורים, עוסקים זעירים, עסקים זעירים, עסקים קטנים, עסקים בינוניים, שרוצים להבין כיצד ניתן להתקשר עם מוסדות ציבוריים בפטור ממכרז, סיווגי פטור ממכרזים
+
+## Industry
+Legal Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-b1d0a68e.zappy5.app/sitemap.xml
+- Robots: https://-b1d0a68e.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-b1d0a68e.zappy5.app/llms-full.txt
